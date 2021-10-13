@@ -1,4 +1,5 @@
 package com.softwareinstitute;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -92,6 +93,41 @@ public class Main {
             break;
         }
 
+        /*
+
+        //standard 10 x 10 grid
+
+        int count1 = 0;
+        int grid_counter[][] = new int [10] [10];
+
+        for(int i=0; i < grid_counter.length;i++){
+            for(int j = 0; j <grid_counter[i].length;j++){
+                grid_counter[i][j] = ++count1;
+                System.out.print(grid_counter[i][j]+ " ");
+            }
+            System.out.println();
+        }
+
+        */
+
+        Scanner chosePaint = new Scanner(System.in);
+        System.out.println("Please select which paint colour you are going to use ");
+
+        String [] paints = new String[] {"Black", "White", "Yellow", "Blue", "Red", "Glitter"};
+        System.out.print(paints[0] + " " +paints[1]+ " " +paints[2]+ " " +paints[3]+ " " +paints[4]+ " " +paints[5]+ " ");
+
+        String colours;
+        colours = chosePaint.nextLine();
+
+        Scanner choseShade = new Scanner(System.in);
+        System.out.println("Please select the shade of your colour choice ");
+
+        String [] shades = new String[] {"Light","Bright","Dark","Dull"};
+        System.out.print(shades[0] + " " +shades[1]+ " " +shades[2]+ " " +shades[3]+ " ");
+
+        String shadeOf;
+        shadeOf = choseShade.nextLine();
+        System.out.println("You have selected the shade " + shadeOf + " " + colours);
 
     }
 }
