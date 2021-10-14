@@ -6,11 +6,11 @@ public abstract class Library {
 
     // books
     private String books;
-    private String bookTitle;
+    private String BookTitle;
 
     // audio books
     private String audiobooks;
-    private String abookTitle;
+    private String ABookTitle;
 
     ////////////////////////////////////////// Constructors ///////////////////////////////////
 
@@ -18,22 +18,24 @@ public abstract class Library {
     public Library (String books){
         this.books = books;
         this.audiobooks = audiobooks;
+        this.BookTitle = BookTitle;
+        this.ABookTitle = ABookTitle;
     }
 
     public String getBookTitle(){
-        return bookTitle;
+        return BookTitle;
     }
 
     public void setBookTitle(String bookTitle){
-        this.bookTitle = bookTitle;
+        this.BookTitle = bookTitle;
     }
 
-    public String getAbookTitle(){
-        return abookTitle;
+    public String getABookTitle(){
+        return ABookTitle;
     }
 
-    public void setAbookTitle(String abookTitle){
-        this.abookTitle = abookTitle;
+    public void setABookTitle(String ABookTitle){
+        this.ABookTitle = ABookTitle;
     }
 
 
