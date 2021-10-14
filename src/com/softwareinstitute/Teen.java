@@ -26,6 +26,7 @@ public class Teen extends Genre{
 
 //Author
     public static String getAuthor(){
+        System.out.println("Author: "+ author);
         return author;
     }
 
@@ -36,6 +37,7 @@ public class Teen extends Genre{
 
 //GCSE
     public static String getGCSE() {
+        System.out.println("This is a GCSE level educational book");
         return GCSE;
     }
 
@@ -45,6 +47,7 @@ public class Teen extends Genre{
 
 //aLevel
     public static String getALevel() {
+        System.out.println("This is an A Level educational book");
         return ALevel;
     }
 
@@ -54,6 +57,7 @@ public class Teen extends Genre{
 
 //TQR
     public static String getTeenQuickReads() {
+        System.out.println("This book is categorised as a Teen Quick Read");
         return teenQuickReads;
     }
 

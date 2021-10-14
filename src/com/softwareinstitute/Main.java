@@ -8,13 +8,13 @@ public class Main {
         childrens.setBookTitle("Cat in the Hat");
         childrens.setABookTitle("Cat in the Hat Audio");
         childrens.setAuthor("Dr. Seues");
-        childrens.setTargetAge (5);
-        childrens.setNurseryRhymes("This is classed as a Nursery Rhyme book");
+        childrens.setTargetAge(5);
+        childrens.setNurseryRhymes(" ");
         childrens.fiction();
 
         System.out.println(childrens.getBookTitle());
-        System.out.println(childrens.getAuthor());
         System.out.println(childrens.getABookTitle());
+        System.out.println(childrens.getAuthor());
         System.out.println(childrens.getTargetAge());
         System.out.println(childrens.getNurseryRhymes());
 

@@ -28,8 +28,10 @@ public class Childrens extends Genre implements BookDetails{
         super(BookTitle);
     }
 
+
     //Author
     public static String getAuthor(){
+        System.out.println("Author: "+ author);
         return author;
     }
 
@@ -38,8 +40,10 @@ public class Childrens extends Genre implements BookDetails{
     }
 
 
+
 // Target Age
     public static int getTargetAge() {
+        System.out.println("The target age for this book is "+ targetAge);
         return targetAge;
     }
 
@@ -49,7 +53,9 @@ public class Childrens extends Genre implements BookDetails{
 
 //NR
     public static String getNurseryRhymes() {
+        System.out.println("This is classed as a Nursery Rhyme book");
         return nurseryRhymes;
+
     }
 
     public void setNurseryRhymes(String nurseryRhymes) {
@@ -58,6 +64,7 @@ public class Childrens extends Genre implements BookDetails{
 
 //Interact
     public static String getInteractive() {
+        System.out.println("This is an interactive book");
         return interactive;
     }
 
@@ -67,6 +74,7 @@ public class Childrens extends Genre implements BookDetails{
 
 //Picture
     public static String getPicture() {
+        System.out.println("This is a picture book");
         return picture;
     }
 

@@ -8,24 +8,13 @@ public abstract class Genre extends Library implements BookDetails{
 
     ////////////////////////////// Attributes ///////////////////////////////
 
-    // Educational
     private static String Educational;
-
-    // Sci-Fi
     private static String Scifi;
-
-    // Romance
     private static String Romance;
-
-    // Horror
     private static String Horror;
-
-    // Miscellaneous
     private static String Misc;
 
-
     ////////////////////////////// Contructors ///////////////////////////////
-
 
     public void Genre(){
         this.Educational = Educational;
@@ -34,6 +23,8 @@ public abstract class Genre extends Library implements BookDetails{
         this.Horror = Horror;
         this.Misc = Misc;
     }
+
+    ///////////////////////////// Methods //////////////////////////////
 
     public void fiction(){
         System.out.println("This is a fictional book");
@@ -53,9 +44,6 @@ public abstract class Genre extends Library implements BookDetails{
         }
     }
 
-
-    ///////////////////////////// Methods //////////////////////////////
-
     //Author
     public static String getEducational(){
         return Educational;
@@ -63,6 +51,7 @@ public abstract class Genre extends Library implements BookDetails{
 
     public void setEducational(String Educational) {
         this.Educational = Educational;
+        System.out.println("You have selected an educational book");
     }
 
 
@@ -73,6 +62,7 @@ public abstract class Genre extends Library implements BookDetails{
 
     public void setScifi(String Scifi) {
         this.Scifi = Scifi;
+        System.out.println("This is a Sci-Fi book");
     }
 
 
@@ -84,6 +74,7 @@ public abstract class Genre extends Library implements BookDetails{
 
     public void setRomance(String Romance) {
         this.Romance = Romance;
+        System.out.println("This is a romance");
     }
 
 
@@ -94,6 +85,7 @@ public abstract class Genre extends Library implements BookDetails{
 
     public void setHorror(String Horror) {
         this.Horror = Horror;
+        System.out.println("This is a horror book");
     }
 
 
@@ -104,6 +96,7 @@ public abstract class Genre extends Library implements BookDetails{
 
     public void setMisc(String Misc) {
         this.Misc = Misc;
+        System.out.println("This is a book from our miscellaneous collection");
     }
 
 }
