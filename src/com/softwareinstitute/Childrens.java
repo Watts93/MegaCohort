@@ -1,6 +1,6 @@
 package com.softwareinstitute;
 
-public class Childrens extends Genre {
+public class Childrens extends Genre implements BookDetails{
 
     ////////////////////////////////// Attributes //////////////////////////////////
 
@@ -12,12 +12,8 @@ public class Childrens extends Genre {
 
     ///////////////////////////////// Constructors //////////////////////////////////
 
-    public Childrens(String bookTitle, String BookTitle){
-        super(BookTitle);
 
-    }
-
-    public void Childrens (String title, String author, int targetAge){
+    public void Childrens (String BookTitle, String author, int targetAge, String nurseryRhymes, String interactive, String picture){
         this.author = author;
         this.targetAge = 10;
         this.nurseryRhymes = nurseryRhymes;
@@ -27,7 +23,12 @@ public class Childrens extends Genre {
 
 
     //////////////////////////////// Methods ///////////////////////////////////////
-//Author
+
+    public Childrens(String BookTitle){
+        super(BookTitle);
+    }
+
+    //Author
     public static String getAuthor(){
         return author;
     }
@@ -42,7 +43,7 @@ public class Childrens extends Genre {
         return targetAge;
     }
 
-    public void setTargetAge(){
+    public void setTargetAge(int i){
         this.targetAge = targetAge;
     }
 
@@ -73,6 +74,12 @@ public class Childrens extends Genre {
         this.picture = picture;
     }
 
+    @Override
+        public void fiction() {}
 
+    @Override
+        public void non_fiction() {}
 
+    @Override
+        public void borrowable() {}
 }

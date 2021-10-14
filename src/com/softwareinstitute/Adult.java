@@ -13,7 +13,13 @@ public class Adult extends Genre{
 
     /////////////////////////////// Constructors //////////////////////////////////
 
-
+    public void Adult (String BookTitle, String author, String plus18, String FEducation, String quickReads, String biographies){
+        this.author = author;
+        this.plus18 = plus18;
+        this.FEducation = FEducation;
+        this.quickReads = quickReads;
+        this.biographies = biographies;
+    }
 
     //////////////////////////////// Methods ///////////////////////////////////////
 

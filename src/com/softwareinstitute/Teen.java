@@ -11,7 +11,12 @@ public class Teen extends Genre{
 
     ///////////////////////////////// Constructors //////////////////////////////////
 
-
+    public void Teens (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
+        this.author = author;
+        this.GCSE = GCSE;
+        this.ALevel = ALevel;
+        this.teenQuickReads = teenQuickReads;
+    }
 
     //////////////////////////////// Methods ///////////////////////////////////////
 

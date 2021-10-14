@@ -9,30 +9,30 @@ public abstract class Genre extends Library implements BookDetails{
     ////////////////////////////// Attributes ///////////////////////////////
 
     // Educational
-    private String educational;
+    private static String Educational;
 
     // Sci-Fi
-    private String scifi;
+    private static String Scifi;
 
     // Romance
-    private String romance;
+    private static String Romance;
 
     // Horror
-    private String horror;
+    private static String Horror;
 
     // Miscellaneous
-    private String misc;
+    private static String Misc;
 
 
     ////////////////////////////// Contructors ///////////////////////////////
 
 
     public void Genre(){
-        this.educational = educational;
-        this.scifi = scifi;
-        this.romance = romance;
-        this.horror = horror;
-        this.misc = misc;
+        this.Educational = Educational;
+        this.Scifi = Scifi;
+        this.Romance = Romance;
+        this.Horror = Horror;
+        this.Misc = Misc;
     }
 
     public void fiction(){
@@ -56,6 +56,55 @@ public abstract class Genre extends Library implements BookDetails{
 
     ///////////////////////////// Methods //////////////////////////////
 
+    //Author
+    public static String getEducational(){
+        return Educational;
+    }
 
+    public void setEducational(String Educational) {
+        this.Educational = Educational;
+    }
+
+
+    //Scifi
+    public static String getScifi(){
+        return Scifi;
+    }
+
+    public void setScifi(String Scifi) {
+        this.Scifi = Scifi;
+    }
+
+
+
+    //Romance
+    public static String getRomance(){
+        return Romance;
+    }
+
+    public void setRomance(String Romance) {
+        this.Romance = Romance;
+    }
+
+
+    //Horror
+    public static String getHorror(){
+        return Horror;
+    }
+
+    public void setHorror(String Horror) {
+        this.Horror = Horror;
+    }
+
+
+    //Misc
+    public static String getMisc(){
+        return Misc;
+    }
+
+    public void setMisc(String Misc) {
+        this.Misc = Misc;
+    }
 
 }
+
