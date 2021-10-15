@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PainterProject.iml" filepath="$PROJECT_DIR$/PainterProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopLibrary.iml" filepath="$PROJECT_DIR$/oopLibrary.iml" />
     </modules>
   </component>
 </project>
