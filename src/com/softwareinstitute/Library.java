@@ -5,19 +5,17 @@ public abstract class Library {
     /////////////////////////////////////////// Attributes //////////////////////////////////
 
     // books
-    private String books;
     private static String BookTitle;
 
     // audio books
-    private String audiobooks;
     private static String ABookTitle;
 
     ////////////////////////////////////////// Constructors ///////////////////////////////////
 
 
-    public Library (String books){
-        this.books = books;
-        this.audiobooks = audiobooks;
+    public Library (String BookTitle, String ABookTitle){
+        this.BookTitle = BookTitle;
+        this.ABookTitle = ABookTitle;
     }
 
     public static String getBookTitle(){

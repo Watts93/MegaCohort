@@ -1,6 +1,10 @@
 package com.softwareinstitute;
 
-public class Childrens extends Genre implements BookDetails{
+public class Childrens extends Genre {
+
+    public Childrens(String BookTitle, String ABookTitle) {
+        super(BookTitle, ABookTitle);
+    }
 
     ////////////////////////////////// Attributes //////////////////////////////////
 
@@ -23,10 +27,6 @@ public class Childrens extends Genre implements BookDetails{
 
 
     //////////////////////////////// Methods ///////////////////////////////////////
-
-    public Childrens(String BookTitle){
-        super(BookTitle);
-    }
 
 
     //Author

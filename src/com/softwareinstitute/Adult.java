@@ -2,6 +2,9 @@ package com.softwareinstitute;
 
 public class Adult extends Genre{
 
+    public Adult(String BookTitle, String ABookTitle) {
+        super(BookTitle, ABookTitle);
+    }
 
     ////////////////////////////////// Attributes //////////////////////////////////
 
@@ -23,9 +26,7 @@ public class Adult extends Genre{
 
     //////////////////////////////// Methods ///////////////////////////////////////
 
-    public Adult(String BookTitle){
-        super(BookTitle);
-    }
+
 
 
 //Author

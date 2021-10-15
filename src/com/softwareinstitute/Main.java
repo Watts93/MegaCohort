@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        Childrens childrens = new Childrens("Cat in the Hat");
+        Childrens childrens = new Childrens("Cat in the Hat", "Cat in the Hat Audio");
         childrens.setBookTitle("Cat in the Hat");
         childrens.setABookTitle("Cat in the Hat Audio");
         childrens.setAuthor("Dr. Seues");
@@ -26,7 +26,7 @@ public class Main {
     //    System.out.println(Childrens.getPicture());
 
 
-        Teen teens = new Teen("Twilight");
+        Teen teens = new Teen("Twilight", "Twilight Audio");
         teens.setBookTitle("Twilight");
         teens.setABookTitle("Twilight Audio");
         teens.setAuthor("Stephany Meyer");
@@ -44,7 +44,7 @@ public class Main {
     //    System.out.println(Teen.getTeenQuickReads());
 
 
-        Adult adults = new Adult("A Million Little Pieces");
+        Adult adults = new Adult("A Million Little Pieces", "A Million little Pieces Audio");
         adults.setBookTitle("A Million Little Pieces");
         adults.setABookTitle("A Million Little Pieces Audio");
         adults.setAuthor("James Frey");

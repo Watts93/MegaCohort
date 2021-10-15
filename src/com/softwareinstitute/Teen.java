@@ -2,6 +2,10 @@ package com.softwareinstitute;
 
 public class Teen extends Genre{
 
+    public Teen(String BookTitle, String ABookTitle) {
+        super(BookTitle, ABookTitle);
+    }
+
     ////////////////////////////////// Attributes //////////////////////////////////
 
     private static String author;
@@ -10,6 +14,8 @@ public class Teen extends Genre{
     private static String teenQuickReads;
 
     ///////////////////////////////// Constructors //////////////////////////////////
+
+
 
     public void Teens (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
         this.author = author;
@@ -20,9 +26,6 @@ public class Teen extends Genre{
 
     //////////////////////////////// Methods ///////////////////////////////////////
 
-    public Teen(String BookTitle){
-        super(BookTitle);
-    }
 
 //Author
     public static String getAuthor(){

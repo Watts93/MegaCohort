@@ -2,8 +2,8 @@ package com.softwareinstitute;
 
 public abstract class Genre extends Library implements BookDetails{
 
-    public Genre(String books) {
-        super(books);
+    public Genre(String BookTitle, String ABookTitle) {
+        super(BookTitle, ABookTitle);
     }
 
     ////////////////////////////// Attributes ///////////////////////////////
@@ -16,7 +16,7 @@ public abstract class Genre extends Library implements BookDetails{
 
     ////////////////////////////// Contructors ///////////////////////////////
 
-    public void Genre(){
+    public void Genre(String Educational, String Scifi, String Romance, String Horror, String Misc){
         this.Educational = Educational;
         this.Scifi = Scifi;
         this.Romance = Romance;
