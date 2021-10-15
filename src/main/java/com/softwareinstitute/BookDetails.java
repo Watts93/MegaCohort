@@ -1,6 +1,6 @@
 package com.softwareinstitute;
 
-public interface BookType {
+public interface BookDetails {
 
     // fiction
     void fiction();
