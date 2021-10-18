@@ -22,7 +22,7 @@ public abstract class Library {
         return BookTitle;
     }
 
-    public void setBookTitle(String BookTitle){
+    public static void setBookTitle(String BookTitle){
         Library.BookTitle = BookTitle;
     }
 
@@ -30,7 +30,7 @@ public abstract class Library {
         return ABookTitle;
     }
 
-    public void setABookTitle(String ABookTitle){
+    public static void setABookTitle(String ABookTitle){
         Library.ABookTitle = ABookTitle;
     }
 

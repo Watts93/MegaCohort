@@ -11,12 +11,11 @@ public class Main {
         childrens.setTargetAge(5);
         childrens.setNurseryRhymes(" ");
 
-        System.out.println(childrens.getBookTitle());
-        System.out.println(childrens.getABookTitle());
-        System.out.println(childrens.getAuthor());
-        System.out.println(childrens.getTargetAge());
-        System.out.println(childrens.getNurseryRhymes());
-
+        System.out.println(com.softwareinstitute.Childrens.getBookTitle());
+        System.out.println(com.softwareinstitute.Childrens.getABookTitle());
+        System.out.println(com.softwareinstitute.Childrens.getAuthor());
+        System.out.println(com.softwareinstitute.Childrens.getTargetAge());
+        System.out.println(com.softwareinstitute.Childrens.getNurseryRhymes());
 
     //    System.out.println(Childrens.getAuthor());
     //    System.out.println(Childrens.getTargetAge());
@@ -38,10 +37,10 @@ public class Main {
         teens.setAuthor("Stephany Meyer");
         teens.setRomance("Fantasy Romance");
 
-        System.out.println(Teen.getBookTitle());
-        System.out.println(Teen.getABookTitle());
-        System.out.println(Teen.getAuthor());
-        System.out.println(Teen.getRomance());
+        System.out.println(com.softwareinstitute.Teen.getBookTitle());
+        System.out.println(com.softwareinstitute.Teen.getABookTitle());
+        System.out.println(com.softwareinstitute.Teen.getAuthor());
+        System.out.println(com.softwareinstitute.Teen.getRomance());
 
 
     //    System.out.println(Teen.getAuthor());
@@ -62,11 +61,11 @@ public class Main {
         adults.setQuickReads(" ");
         adults.setMisc(" ");
 
-        System.out.println(adults.getBookTitle());
-        System.out.println(adults.getABookTitle());
-        System.out.println(adults.getAuthor());
-        System.out.println(adults.getQuickReads());
-        System.out.println(adults.getMisc());
+        System.out.println(com.softwareinstitute.Adult.getBookTitle());
+        System.out.println(com.softwareinstitute.Adult.getABookTitle());
+        System.out.println(com.softwareinstitute.Adult.getAuthor());
+        System.out.println(com.softwareinstitute.Adult.getQuickReads());
+        System.out.println(com.softwareinstitute.Adult.getMisc());
 
 
     //    System.out.println(Adult.getAuthor());
