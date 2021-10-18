@@ -32,7 +32,7 @@ public class Adult extends com.softwareinstitute.Genre {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public static void setAuthor(String author) {
         Adult.author = author;
     }
 
@@ -43,7 +43,7 @@ public class Adult extends com.softwareinstitute.Genre {
         return plus18;
     }
 
-    public void setPlus18(String plus18) {
+    public static void setPlus18(String plus18) {
         Adult.plus18 = plus18;
     }
 
@@ -54,7 +54,7 @@ public class Adult extends com.softwareinstitute.Genre {
         return FEducation;
     }
 
-    public void setFEducation(String FEducation) {
+    public static void setFEducation(String FEducation) {
         Adult.FEducation = FEducation;
     }
 
@@ -64,7 +64,7 @@ public class Adult extends com.softwareinstitute.Genre {
         return quickReads;
     }
 
-    public void setQuickReads(String quickReads) {
+    public static void setQuickReads(String quickReads) {
         Adult.quickReads = quickReads;
     }
 
@@ -74,7 +74,7 @@ public class Adult extends com.softwareinstitute.Genre {
         return biographies;
     }
 
-    public void setBiographies(String biographies) {
+    public static void setBiographies(String biographies) {
         Adult.biographies = biographies;
     }
 

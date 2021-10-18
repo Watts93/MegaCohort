@@ -34,7 +34,7 @@ public class Teen extends com.softwareinstitute.Genre {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public static void setAuthor(String author) {
         Teen.author = author;
     }
 
@@ -44,7 +44,7 @@ public class Teen extends com.softwareinstitute.Genre {
         return GCSE;
     }
 
-    public void setGCSE(){
+    public static void setGCSE(){
         Teen.GCSE = GCSE;
     }
 
@@ -54,7 +54,7 @@ public class Teen extends com.softwareinstitute.Genre {
         return ALevel;
     }
 
-    public void setALevel(){
+    public static void setALevel(){
         Teen.ALevel = ALevel;
     }
 
@@ -64,7 +64,7 @@ public class Teen extends com.softwareinstitute.Genre {
         return teenQuickReads;
     }
 
-    public void setTeenQuickReads(){
+    public static void setTeenQuickReads(){
         Teen.teenQuickReads = teenQuickReads;
     }
 

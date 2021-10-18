@@ -36,7 +36,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public static void setAuthor(String author) {
         Childrens.author = author;
     }
 
@@ -46,7 +46,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         return targetAge;
     }
 
-    public void setTargetAge(int i){
+    public static void setTargetAge(int i){
         Childrens.targetAge = targetAge;
     }
 
@@ -57,7 +57,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
     }
 
-    public void setNurseryRhymes(String nurseryRhymes) {
+    public static void setNurseryRhymes(String nurseryRhymes) {
         Childrens.nurseryRhymes = nurseryRhymes;
     }
 
@@ -67,7 +67,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         return interactive;
     }
 
-    public void setInteractive(String interactive) {
+    public static void setInteractive(String interactive) {
         Childrens.interactive = interactive;
     }
 
@@ -77,7 +77,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         return picture;
     }
 
-    public void setPicture(String picture){
+    public static void setPicture(String picture){
         Childrens.picture = picture;
     }
 
