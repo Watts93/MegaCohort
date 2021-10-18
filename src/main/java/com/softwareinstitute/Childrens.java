@@ -18,7 +18,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     ///////////////////////////////// Constructors //////////////////////////////////
 
 
-    public static void Childrens (String bookTitle, String author, int targetAge, String nurseryRhymes, String interactive, String picture){
+    public static void Childrens (String author, int targetAge, String nurseryRhymes, String interactive, String picture){
         Childrens.author = author;
         Childrens.targetAge = 10;
         Childrens.nurseryRhymes = nurseryRhymes;
