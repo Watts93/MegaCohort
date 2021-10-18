@@ -51,7 +51,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Educational;
     }
 
-    public void setEducational(String Educational) {
+    public static void setEducational(String Educational) {
         Genre.Educational = Educational;
         System.out.println("You have selected an educational book");
     }
@@ -62,7 +62,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Scifi;
     }
 
-    public void setScifi(String Scifi) {
+    public static void setScifi(String Scifi) {
         Genre.Scifi = Scifi;
         System.out.println("This is a Sci-Fi book");
     }
@@ -74,7 +74,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Romance;
     }
 
-    public void setRomance(String Romance) {
+    public static void setRomance(String Romance) {
         Genre.Romance = Romance;
         System.out.println("This is a romance");
     }
@@ -85,7 +85,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Horror;
     }
 
-    public void setHorror(String Horror) {
+    public static void setHorror(String Horror) {
         Genre.Horror = Horror;
         System.out.println("This is a horror book");
     }
@@ -96,7 +96,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Misc;
     }
 
-    public void setMisc(String Misc) {
+    public static void setMisc(String Misc) {
         Genre.Misc = Misc;
         System.out.println("This is a book from our miscellaneous collection");
     }
