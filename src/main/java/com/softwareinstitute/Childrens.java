@@ -46,7 +46,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         return Childrens.targetAge;
     }
 
-    public static void setTargetAge(int i){
+    public static void setTargetAge(int targetAge){
         Childrens.targetAge = targetAge;
     }
 
