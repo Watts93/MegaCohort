@@ -1,10 +1,7 @@
 package com.softwareinstitute;
 
-<<<<<<< HEAD
-public class Childrens extends Genre {
-=======
 public class Childrens extends com.softwareinstitute.Genre {
->>>>>>> 5dd24be (maven re-write)
+
 
     public Childrens(String BookTitle, String ABookTitle) {
         super(BookTitle, ABookTitle);
@@ -44,12 +41,6 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
 
-
-<<<<<<< HEAD
-// Target Age
-=======
-    // Target Age
->>>>>>> 5dd24be (maven re-write)
     public static int getTargetAge() {
         System.out.println("The target age for this book is "+ targetAge);
         return targetAge;
@@ -59,11 +50,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         this.targetAge = targetAge;
     }
 
-<<<<<<< HEAD
-//NR
-=======
-    //NR
->>>>>>> 5dd24be (maven re-write)
+
     public static String getNurseryRhymes() {
         System.out.println("This is classed as a Nursery Rhyme book");
         return nurseryRhymes;
@@ -74,11 +61,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         this.nurseryRhymes = nurseryRhymes;
     }
 
-<<<<<<< HEAD
-//Interact
-=======
-    //Interact
->>>>>>> 5dd24be (maven re-write)
+
     public static String getInteractive() {
         System.out.println("This is an interactive book");
         return interactive;
@@ -88,11 +71,7 @@ public class Childrens extends com.softwareinstitute.Genre {
         this.interactive = interactive;
     }
 
-<<<<<<< HEAD
-//Picture
-=======
-    //Picture
->>>>>>> 5dd24be (maven re-write)
+
     public static String getPicture() {
         System.out.println("This is a picture book");
         return picture;
@@ -103,21 +82,11 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
     @Override
-<<<<<<< HEAD
         public void fiction() {}
 
     @Override
         public void non_fiction() {}
 
     @Override
-        public void borrowable() {}
-=======
-    public void fiction() {}
-
-    @Override
-    public void non_fiction() {}
-
-    @Override
     public void borrowable() {}
->>>>>>> 5dd24be (maven re-write)
 }
