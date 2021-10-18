@@ -27,9 +27,8 @@ public class Adult extends com.softwareinstitute.Genre {
     //////////////////////////////// Methods ///////////////////////////////////////
 
 
-    public static String getAuthor(){
-        System.out.println("Author: "+ author);
-        return author;
+    public static String getAuthor(String s){
+        return ("Author: "+ author);
     }
 
     public static void setAuthor(String author) {
@@ -39,8 +38,7 @@ public class Adult extends com.softwareinstitute.Genre {
 
 
     public static String getPlus18(){
-        System.out.println("This book is for over 18's only");
-        return plus18;
+        return ("This book is for over 18's only");
     }
 
     public static void setPlus18(String plus18) {
@@ -50,8 +48,7 @@ public class Adult extends com.softwareinstitute.Genre {
 
 
     public static String getFEducation(){
-        System.out.println("This is an adult level educational book");
-        return fEducation;
+        return ("This is an adult level educational book");
     }
 
     public static void setFEducation(String fEducation) {
@@ -60,8 +57,7 @@ public class Adult extends com.softwareinstitute.Genre {
 
 
     public static String getQuickReads(){
-        System.out.println("This is an adult quick read");
-        return quickReads;
+        return ("This is an adult quick read");
     }
 
     public static void setQuickReads(String quickReads) {
@@ -70,8 +66,7 @@ public class Adult extends com.softwareinstitute.Genre {
 
 
     public static String getBiographies(){
-        System.out.println("This is categorised as a biographical book");
-        return biographies;
+        return ("This is categorised as a biographical book");
     }
 
     public static void setBiographies(String biographies) {
@@ -79,18 +74,21 @@ public class Adult extends com.softwareinstitute.Genre {
     }
 
     @Override
-    public void fiction() {
+    public String fiction() {
         // if fiction return true
+        return null;
     }
 
     @Override
-    public void nonFiction() {
+    public String nonFiction() {
         // if non-fiction return true
+        return null;
     }
 
     @Override
-    public void borrowable() {
+    public String borrowable() {
         //if borrowable return true
+        return null;
     }
 
 

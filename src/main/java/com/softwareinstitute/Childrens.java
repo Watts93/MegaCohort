@@ -32,8 +32,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
     //Author
     public static String getAuthor(){
-        System.out.println("Author: "+ Childrens.author);
-        return Childrens.author;
+        return ("Author: "+ Childrens.author);
     }
 
     public static void setAuthor(String author) {
@@ -41,9 +40,8 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
 
-    public static int getTargetAge() {
-        System.out.println("The target age for this book is "+ Childrens.targetAge);
-        return Childrens.targetAge;
+    public static String getTargetAge() {
+        return ("The target age for this book is "+ Childrens.targetAge);
     }
 
     public static void setTargetAge(int targetAge){
@@ -52,9 +50,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
 
     public static String getNurseryRhymes() {
-        System.out.println("This is classed as a Nursery Rhyme book");
-        return Childrens.nurseryRhymes;
-
+        return ("This is classed as a Nursery Rhyme book");
     }
 
     public static void setNurseryRhymes(String nurseryRhymes) {
@@ -63,8 +59,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
 
     public static String getInteractive() {
-        System.out.println("This is an interactive book");
-        return Childrens.interactive;
+        return ("This is an interactive book");
     }
 
     public static void setInteractive(String interactive) {
@@ -73,8 +68,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
 
     public static String getPicture() {
-        System.out.println("This is a picture book");
-        return Childrens.picture;
+        return ("This is a picture book");
     }
 
     public static void setPicture(String picture){
@@ -83,17 +77,20 @@ public class Childrens extends com.softwareinstitute.Genre {
 
 
     @Override
-        public void fiction() {
+        public String fiction() {
         // if fiction return true
+        return null;
     }
 
     @Override
-        public void nonFiction() {
+        public String nonFiction() {
         // if non-fiction return true
+        return null;
     }
 
     @Override
-    public void borrowable() {
+    public String borrowable() {
         //if borrowable return true
+        return null;
     }
 }

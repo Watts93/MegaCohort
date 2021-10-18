@@ -39,7 +39,7 @@ public class Main {
 
         System.out.println(com.softwareinstitute.Adult.getBookTitle());
         System.out.println(com.softwareinstitute.Adult.getABookTitle());
-        System.out.println(com.softwareinstitute.Adult.getAuthor());
+        System.out.println(com.softwareinstitute.Adult.getAuthor(""));
         System.out.println(com.softwareinstitute.Adult.getQuickReads());
         System.out.println(com.softwareinstitute.Adult.getMisc());
 

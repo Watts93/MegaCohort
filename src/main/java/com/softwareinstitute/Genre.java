@@ -28,21 +28,21 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     ///////////////////////////// Methods //////////////////////////////
 
-    public void fiction(){
-        System.out.println("This is a fictional book");
+    public String fiction(){
+        return ("This is a fictional book");
     }
 
-    public void nonFiction(){
-        System.out.println("This is a non-fictional book");
+    public String nonFiction(){
+        return ("This is a non-fictional book");
     }
 
     boolean loanable = true;
-    public void borrowable(){
+    public String borrowable(){
         if(loanable) {
-            System.out.println("This book can be loaned from the Library");
+            return ("This book can be loaned from the Library");
         }
         else {
-            System.out.println("This cannot be loaned from the Library");
+            return ("This cannot be loaned from the Library");
         }
     }
 
@@ -51,9 +51,9 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Genre.educational;
     }
 
-    public static void setEducational(String educational) {
+    public static String setEducational(String educational) {
         Genre.educational = educational;
-        System.out.println("You have selected an educational book");
+        return ("You have selected an educational book");
     }
 
 
@@ -62,9 +62,9 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Genre.scifi;
     }
 
-    public static void setScifi(String scifi) {
+    public static String setScifi(String scifi) {
         Genre.scifi = scifi;
-        System.out.println("This is a Sci-Fi book");
+        return ("This is a Sci-Fi book");
     }
 
 
@@ -74,9 +74,9 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Genre.romance;
     }
 
-    public static void setRomance(String romance) {
+    public static String setRomance(String romance) {
         Genre.romance = romance;
-        System.out.println("This is a romance");
+        return ("This is a romance");
     }
 
 
@@ -85,9 +85,9 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Genre.horror;
     }
 
-    public static void setHorror(String horror) {
+    public static String setHorror(String horror) {
         Genre.horror = horror;
-        System.out.println("This is a horror book");
+        return ("This is a horror book");
     }
 
 
@@ -96,9 +96,9 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         return Genre.misc;
     }
 
-    public static void setMisc(String misc) {
+    public static String setMisc(String misc) {
         Genre.misc = misc;
-        System.out.println("This is a book from our miscellaneous collection");
+        return ("This is a book from our miscellaneous collection");
     }
 
 }

@@ -1,20 +1,20 @@
 package Testing;
 
 import com.softwareinstitute.Adult;
-import com.softwareinstitute.Childrens;
-import com.softwareinstitute.Genre;
-import com.softwareinstitute.Teen;
-
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 class testBooks {
     Adult testBooks = new Adult("A Million Little Pieces", "A Million Little Pieces Audio");
 
     @Test
-    public void testGetAuthor() {
-            assertEquals("James Frey", testBooks.getAuthor(), "Wrong author");
+    public void testQuickReads() {
+           Adult adultTestQuickRead = new Adult("A Million Little Pieces", "A Million Little Pieces Audio");
+           String result = adultTestQuickRead.getQuickReads();
+           Assert.assertEquals("This is an adult quick read", com.softwareinstitute.Adult.getQuickReads());
+
+
     }
 
 

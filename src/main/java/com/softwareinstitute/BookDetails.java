@@ -3,12 +3,12 @@ package com.softwareinstitute;
 public interface BookDetails {
 
     // fiction
-    void fiction();
+    String fiction();
 
     // non-fiction
-    void nonFiction();
+    String nonFiction();
 
     // borrowable
-    void borrowable();
+    String borrowable();
 
 }

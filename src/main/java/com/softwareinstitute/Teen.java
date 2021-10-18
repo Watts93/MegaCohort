@@ -30,8 +30,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getAuthor(){
-        System.out.println("Author: "+ Teen.author);
-        return Teen.author;
+        return ("Author: "+ Teen.author);
     }
 
     public static void setAuthor(String author) {
@@ -40,8 +39,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getGCSE() {
-        System.out.print("This is a GCSE level educational book");
-        return Teen.gcse;
+        return ("This is a GCSE level educational book");
     }
 
     public static void setGCSE(){
@@ -50,8 +48,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getALevel() {
-        System.out.print("This is an A Level book");
-        return Teen.aLevel;
+        return ("This is an A Level book");
     }
 
     public static void setALevel(){
@@ -60,8 +57,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getTeenQuickReads() {
-        System.out.print("This book is categorised as a Teen Quick Read");
-        return Teen.teenQuickReads;
+        return ("This book is categorised as a Teen Quick Read");
     }
 
     public static void setTeenQuickReads(){
@@ -69,18 +65,21 @@ public class Teen extends com.softwareinstitute.Genre {
     }
 
     @Override
-    public void fiction() {
+    public String fiction() {
         // if fiction return true
+        return null;
     }
 
     @Override
-    public void nonFiction() {
+    public String nonFiction() {
         // if non-fiction return true
+        return null;
     }
 
     @Override
-    public void borrowable() {
+    public String borrowable() {
         //if borrowable return true
+        return null;
     }
 
 }
