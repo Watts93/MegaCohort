@@ -19,11 +19,11 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
 
-    public void Teens (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
-        this.author = author;
-        this.GCSE = GCSE;
-        this.ALevel = ALevel;
-        this.teenQuickReads = teenQuickReads;
+    public void Teen (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
+        Teen.author = author;
+        Teen.GCSE = GCSE;
+        Teen.ALevel = ALevel;
+        Teen.teenQuickReads = teenQuickReads;
     }
 
     //////////////////////////////// Methods ///////////////////////////////////////
@@ -35,7 +35,7 @@ public class Teen extends com.softwareinstitute.Genre {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        Teen.author = author;
     }
 
 
@@ -45,7 +45,7 @@ public class Teen extends com.softwareinstitute.Genre {
     }
 
     public void setGCSE(){
-        this.GCSE = GCSE;
+        Teen.GCSE = GCSE;
     }
 
 
@@ -55,7 +55,7 @@ public class Teen extends com.softwareinstitute.Genre {
     }
 
     public void setALevel(){
-        this.ALevel = ALevel;
+        Teen.ALevel = ALevel;
     }
 
 
@@ -65,7 +65,7 @@ public class Teen extends com.softwareinstitute.Genre {
     }
 
     public void setTeenQuickReads(){
-        this.teenQuickReads = teenQuickReads;
+        Teen.teenQuickReads = teenQuickReads;
     }
 
 }

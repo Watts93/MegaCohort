@@ -14,8 +14,8 @@ public abstract class Library {
 
 
     public Library (String BookTitle, String ABookTitle){
-        this.BookTitle = BookTitle;
-        this.ABookTitle = ABookTitle;
+        Library.BookTitle = BookTitle;
+        Library.ABookTitle = ABookTitle;
     }
 
     public static String getBookTitle(){
@@ -23,7 +23,7 @@ public abstract class Library {
     }
 
     public void setBookTitle(String BookTitle){
-        this.BookTitle = BookTitle;
+        Library.BookTitle = BookTitle;
     }
 
     public static String getABookTitle(){
@@ -31,7 +31,7 @@ public abstract class Library {
     }
 
     public void setABookTitle(String ABookTitle){
-        this.ABookTitle = ABookTitle;
+        Library.ABookTitle = ABookTitle;
     }
 
 

@@ -16,12 +16,12 @@ public class Adult extends com.softwareinstitute.Genre {
 
     /////////////////////////////// Constructors //////////////////////////////////
 
-    public void Adult (String BookTitle, String author, String plus18, String FEducation, String quickReads, String biographies){
-        this.author = author;
-        this.plus18 = plus18;
-        this.FEducation = FEducation;
-        this.quickReads = quickReads;
-        this.biographies = biographies;
+    public static void Adult (String BookTitle, String author, String plus18, String FEducation, String quickReads, String biographies){
+        Adult.author = author;
+        Adult.plus18 = plus18;
+        Adult.FEducation = FEducation;
+        Adult.quickReads = quickReads;
+        Adult.biographies = biographies;
     }
 
     //////////////////////////////// Methods ///////////////////////////////////////
@@ -33,7 +33,7 @@ public class Adult extends com.softwareinstitute.Genre {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        Adult.author = author;
     }
 
 
@@ -44,7 +44,7 @@ public class Adult extends com.softwareinstitute.Genre {
     }
 
     public void setPlus18(String plus18) {
-        this.plus18 = plus18;
+        Adult.plus18 = plus18;
     }
 
 
@@ -55,7 +55,7 @@ public class Adult extends com.softwareinstitute.Genre {
     }
 
     public void setFEducation(String FEducation) {
-        this.FEducation = FEducation;
+        Adult.FEducation = FEducation;
     }
 
 
@@ -65,7 +65,7 @@ public class Adult extends com.softwareinstitute.Genre {
     }
 
     public void setQuickReads(String quickReads) {
-        this.quickReads = quickReads;
+        Adult.quickReads = quickReads;
     }
 
 
@@ -75,7 +75,7 @@ public class Adult extends com.softwareinstitute.Genre {
     }
 
     public void setBiographies(String biographies) {
-        this.biographies = biographies;
+        Adult.biographies = biographies;
     }
 
 

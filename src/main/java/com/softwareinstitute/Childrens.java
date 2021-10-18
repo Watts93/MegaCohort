@@ -19,11 +19,11 @@ public class Childrens extends com.softwareinstitute.Genre {
 
 
     public void Childrens (String BookTitle, String author, int targetAge, String nurseryRhymes, String interactive, String picture){
-        this.author = author;
-        this.targetAge = 10;
-        this.nurseryRhymes = nurseryRhymes;
-        this.interactive = interactive;
-        this.picture = picture;
+        Childrens.author = author;
+        Childrens.targetAge = 10;
+        Childrens.nurseryRhymes = nurseryRhymes;
+        Childrens.interactive = interactive;
+        Childrens.picture = picture;
     }
 
 
@@ -37,7 +37,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
     public void setAuthor(String author) {
-        this.author = author;
+        Childrens.author = author;
     }
 
 
@@ -47,7 +47,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
     public void setTargetAge(int i){
-        this.targetAge = targetAge;
+        Childrens.targetAge = targetAge;
     }
 
 
@@ -58,7 +58,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
     public void setNurseryRhymes(String nurseryRhymes) {
-        this.nurseryRhymes = nurseryRhymes;
+        Childrens.nurseryRhymes = nurseryRhymes;
     }
 
 
@@ -68,7 +68,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
     public void setInteractive(String interactive) {
-        this.interactive = interactive;
+        Childrens.interactive = interactive;
     }
 
 
@@ -78,7 +78,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     }
 
     public void setPicture(String picture){
-        this.picture = picture;
+        Childrens.picture = picture;
     }
 
     @Override

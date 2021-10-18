@@ -19,11 +19,11 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
     ////////////////////////////// Contructors ///////////////////////////////
 
     public void Genre(String Educational, String Scifi, String Romance, String Horror, String Misc){
-        this.Educational = Educational;
-        this.Scifi = Scifi;
-        this.Romance = Romance;
-        this.Horror = Horror;
-        this.Misc = Misc;
+        Genre.Educational = Educational;
+        Genre.Scifi = Scifi;
+        Genre.Romance = Romance;
+        Genre.Horror = Horror;
+        Genre.Misc = Misc;
     }
 
     ///////////////////////////// Methods //////////////////////////////
@@ -52,7 +52,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
     }
 
     public void setEducational(String Educational) {
-        this.Educational = Educational;
+        Genre.Educational = Educational;
         System.out.println("You have selected an educational book");
     }
 
@@ -63,7 +63,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
     }
 
     public void setScifi(String Scifi) {
-        this.Scifi = Scifi;
+        Genre.Scifi = Scifi;
         System.out.println("This is a Sci-Fi book");
     }
 
@@ -75,7 +75,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
     }
 
     public void setRomance(String Romance) {
-        this.Romance = Romance;
+        Genre.Romance = Romance;
         System.out.println("This is a romance");
     }
 
@@ -86,7 +86,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
     }
 
     public void setHorror(String Horror) {
-        this.Horror = Horror;
+        Genre.Horror = Horror;
         System.out.println("This is a horror book");
     }
 
@@ -97,7 +97,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
     }
 
     public void setMisc(String Misc) {
-        this.Misc = Misc;
+        Genre.Misc = Misc;
         System.out.println("This is a book from our miscellaneous collection");
     }
 
