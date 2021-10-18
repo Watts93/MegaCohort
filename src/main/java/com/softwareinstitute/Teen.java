@@ -30,8 +30,8 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getAuthor(){
-        System.out.println("Author: "+ author);
-        return author;
+        System.out.println("Author: "+ Teen.author);
+        return Teen.author;
     }
 
     public static void setAuthor(String author) {
@@ -41,7 +41,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
     public static String getGCSE() {
         System.out.println("This is a GCSE level educational book");
-        return GCSE;
+        return Teen.GCSE;
     }
 
     public static void setGCSE(){
@@ -51,7 +51,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
     public static String getALevel() {
         System.out.println("This is an A Level educational book");
-        return ALevel;
+        return Teen.ALevel;
     }
 
     public static void setALevel(){
@@ -61,7 +61,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
     public static String getTeenQuickReads() {
         System.out.println("This book is categorised as a Teen Quick Read");
-        return teenQuickReads;
+        return Teen.teenQuickReads;
     }
 
     public static void setTeenQuickReads(){

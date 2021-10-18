@@ -48,7 +48,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     //Author
     public static String getEducational(){
-        return Educational;
+        return Genre.Educational;
     }
 
     public static void setEducational(String Educational) {
@@ -59,7 +59,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     //Scifi
     public static String getScifi(){
-        return Scifi;
+        return Genre.Scifi;
     }
 
     public static void setScifi(String Scifi) {
@@ -71,7 +71,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     //Romance
     public static String getRomance(){
-        return Romance;
+        return Genre.Romance;
     }
 
     public static void setRomance(String Romance) {
@@ -82,7 +82,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     //Horror
     public static String getHorror(){
-        return Horror;
+        return Genre.Horror;
     }
 
     public static void setHorror(String Horror) {
@@ -93,7 +93,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     //Misc
     public static String getMisc(){
-        return Misc;
+        return Genre.Misc;
     }
 
     public static void setMisc(String Misc) {

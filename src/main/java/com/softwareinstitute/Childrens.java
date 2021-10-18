@@ -32,8 +32,8 @@ public class Childrens extends com.softwareinstitute.Genre {
 
     //Author
     public static String getAuthor(){
-        System.out.println("Author: "+ author);
-        return author;
+        System.out.println("Author: "+ Childrens.author);
+        return Childrens.author;
     }
 
     public static void setAuthor(String author) {
@@ -42,8 +42,8 @@ public class Childrens extends com.softwareinstitute.Genre {
 
 
     public static int getTargetAge() {
-        System.out.println("The target age for this book is "+ targetAge);
-        return targetAge;
+        System.out.println("The target age for this book is "+ Childrens.targetAge);
+        return Childrens.targetAge;
     }
 
     public static void setTargetAge(int i){
@@ -53,7 +53,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
     public static String getNurseryRhymes() {
         System.out.println("This is classed as a Nursery Rhyme book");
-        return nurseryRhymes;
+        return Childrens.nurseryRhymes;
 
     }
 
@@ -64,7 +64,7 @@ public class Childrens extends com.softwareinstitute.Genre {
 
     public static String getInteractive() {
         System.out.println("This is an interactive book");
-        return interactive;
+        return Childrens.interactive;
     }
 
     public static void setInteractive(String interactive) {
@@ -74,19 +74,26 @@ public class Childrens extends com.softwareinstitute.Genre {
 
     public static String getPicture() {
         System.out.println("This is a picture book");
-        return picture;
+        return Childrens.picture;
     }
 
     public static void setPicture(String picture){
         Childrens.picture = picture;
     }
 
-    @Override
-        public void fiction() {}
 
     @Override
-        public void non_fiction() {}
+        public void fiction() {
+        // if fiction return true
+    }
 
     @Override
-    public void borrowable() {}
+        public void non_fiction() {
+        // if non-fiction return true
+    }
+
+    @Override
+    public void borrowable() {
+        //if borrowable return true
+    }
 }
