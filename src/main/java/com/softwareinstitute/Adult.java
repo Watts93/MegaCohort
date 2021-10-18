@@ -16,7 +16,7 @@ public class Adult extends com.softwareinstitute.Genre {
 
     /////////////////////////////// Constructors //////////////////////////////////
 
-    public static void Adult (String author, String plus18, String fEducation, String quickReads, String biographies){
+    public static void adultConstruct (String author, String plus18, String fEducation, String quickReads, String biographies){
         Adult.author = author;
         Adult.plus18 = plus18;
         Adult.fEducation = fEducation;
@@ -76,6 +76,21 @@ public class Adult extends com.softwareinstitute.Genre {
 
     public static void setBiographies(String biographies) {
         Adult.biographies = biographies;
+    }
+
+    @Override
+    public void fiction() {
+        // if fiction return true
+    }
+
+    @Override
+    public void nonFiction() {
+        // if non-fiction return true
+    }
+
+    @Override
+    public void borrowable() {
+        //if borrowable return true
     }
 
 

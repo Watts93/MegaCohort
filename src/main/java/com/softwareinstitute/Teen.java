@@ -19,7 +19,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
 
-    static void Teen (String author, String gcse, String aLevel, String teenQuickReads){
+    static void teenConstruct (String author, String gcse, String aLevel, String teenQuickReads){
         Teen.author = author;
         Teen.gcse = gcse;
         Teen.aLevel = aLevel;
@@ -66,6 +66,21 @@ public class Teen extends com.softwareinstitute.Genre {
 
     public static void setTeenQuickReads(){
         Teen.teenQuickReads = teenQuickReads;
+    }
+
+    @Override
+    public void fiction() {
+        // if fiction return true
+    }
+
+    @Override
+    public void nonFiction() {
+        // if non-fiction return true
+    }
+
+    @Override
+    public void borrowable() {
+        //if borrowable return true
     }
 
 }

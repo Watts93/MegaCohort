@@ -6,7 +6,7 @@ public interface BookDetails {
     void fiction();
 
     // non-fiction
-    void non_fiction();
+    void nonFiction();
 
     // borrowable
     void borrowable();

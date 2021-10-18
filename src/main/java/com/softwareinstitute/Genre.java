@@ -32,7 +32,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
         System.out.println("This is a fictional book");
     }
 
-    public void non_fiction(){
+    public void nonFiction(){
         System.out.println("This is a non-fictional book");
     }
 
