@@ -4,25 +4,25 @@ package com.softwareinstitute;
 public class Teen extends com.softwareinstitute.Genre {
 
 
-    public Teen(String BookTitle, String ABookTitle) {
-        super(BookTitle, ABookTitle);
+    public Teen(String bookTitle, String aBookTitle) {
+        super(bookTitle, aBookTitle);
     }
 
     ////////////////////////////////// Attributes //////////////////////////////////
 
     private static String author;
-    private static String GCSE;
-    private static String ALevel;
+    private static String gcse;
+    private static String aLevel;
     private static String teenQuickReads;
 
     ///////////////////////////////// Constructors //////////////////////////////////
 
 
 
-    public static void Teen (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
+    public static void Teen (String bookTitle, String author, String gcse, String aLevel, String teenQuickReads){
         Teen.author = author;
-        Teen.GCSE = GCSE;
-        Teen.ALevel = ALevel;
+        Teen.gcse = gcse;
+        Teen.aLevel = aLevel;
         Teen.teenQuickReads = teenQuickReads;
     }
 
@@ -41,21 +41,21 @@ public class Teen extends com.softwareinstitute.Genre {
 
     public static String getGCSE() {
         System.out.println("This is a GCSE level educational book");
-        return Teen.GCSE;
+        return Teen.gcse;
     }
 
     public static void setGCSE(){
-        Teen.GCSE = GCSE;
+        Teen.gcse = gcse;
     }
 
 
     public static String getALevel() {
         System.out.println("This is an A Level educational book");
-        return Teen.ALevel;
+        return Teen.aLevel;
     }
 
     public static void setALevel(){
-        Teen.ALevel = ALevel;
+        Teen.aLevel = aLevel;
     }
 
 

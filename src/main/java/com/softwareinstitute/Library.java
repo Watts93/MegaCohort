@@ -5,33 +5,33 @@ public abstract class Library {
     /////////////////////////////////////////// Attributes //////////////////////////////////
 
     // books
-    private static String BookTitle;
+    private static String bookTitle;
 
     // audio books
-    private static String ABookTitle;
+    private static String aBookTitle;
 
     ////////////////////////////////////////// Constructors ///////////////////////////////////
 
 
-    public Library (String BookTitle, String ABookTitle){
-        Library.BookTitle = BookTitle;
-        Library.ABookTitle = ABookTitle;
+    public Library (String bookTitle, String aBookTitle){
+        Library.bookTitle = bookTitle;
+        Library.aBookTitle = aBookTitle;
     }
 
     public static String getBookTitle(){
-        return BookTitle;
+        return bookTitle;
     }
 
     public static void setBookTitle(String BookTitle){
-        Library.BookTitle = BookTitle;
+        Library.bookTitle = bookTitle;
     }
 
     public static String getABookTitle(){
-        return ABookTitle;
+        return aBookTitle;
     }
 
     public static void setABookTitle(String ABookTitle){
-        Library.ABookTitle = ABookTitle;
+        Library.aBookTitle = aBookTitle;
     }
 
 

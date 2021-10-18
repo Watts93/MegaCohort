@@ -2,24 +2,24 @@ package com.softwareinstitute;
 
 public class Adult extends com.softwareinstitute.Genre {
 
-    public Adult(String BookTitle, String ABookTitle) {
-        super(BookTitle, ABookTitle);
+    public Adult(String bookTitle, String aBookTitle) {
+        super(bookTitle, aBookTitle);
     }
 
     ////////////////////////////////// Attributes //////////////////////////////////
 
     private static String author;
     private static String plus18;
-    private static String FEducation;
+    private static String fEducation;
     private static String quickReads;
     private static String biographies;
 
     /////////////////////////////// Constructors //////////////////////////////////
 
-    public static void Adult (String BookTitle, String author, String plus18, String FEducation, String quickReads, String biographies){
+    public static void Adult (String BookTitle, String author, String plus18, String fEducation, String quickReads, String biographies){
         Adult.author = author;
         Adult.plus18 = plus18;
-        Adult.FEducation = FEducation;
+        Adult.fEducation = fEducation;
         Adult.quickReads = quickReads;
         Adult.biographies = biographies;
     }
@@ -51,11 +51,11 @@ public class Adult extends com.softwareinstitute.Genre {
 
     public static String getFEducation(){
         System.out.println("This is an adult level educational book");
-        return FEducation;
+        return fEducation;
     }
 
-    public static void setFEducation(String FEducation) {
-        Adult.FEducation = FEducation;
+    public static void setFEducation(String fEducation) {
+        Adult.fEducation = fEducation;
     }
 
 

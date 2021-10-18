@@ -3,8 +3,8 @@ package com.softwareinstitute;
 public class Childrens extends com.softwareinstitute.Genre {
 
 
-    public Childrens(String BookTitle, String ABookTitle) {
-        super(BookTitle, ABookTitle);
+    public Childrens(String bookTitle, String aBookTitle) {
+        super(bookTitle, aBookTitle);
     }
 
     ////////////////////////////////// Attributes //////////////////////////////////
@@ -18,7 +18,7 @@ public class Childrens extends com.softwareinstitute.Genre {
     ///////////////////////////////// Constructors //////////////////////////////////
 
 
-    public static void Childrens (String BookTitle, String author, int targetAge, String nurseryRhymes, String interactive, String picture){
+    public static void Childrens (String bookTitle, String author, int targetAge, String nurseryRhymes, String interactive, String picture){
         Childrens.author = author;
         Childrens.targetAge = 10;
         Childrens.nurseryRhymes = nurseryRhymes;
