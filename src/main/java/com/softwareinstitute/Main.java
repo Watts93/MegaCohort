@@ -5,11 +5,11 @@ public class Main {
     public static void main(String[] args){
 
         Childrens childrens = new Childrens("Cat in the Hat", "Cat in the Hat Audio");
-        childrens.setBookTitle("Cat in the Hat");
-        childrens.setABookTitle("Cat in the Hat Audio");
-        childrens.setAuthor("Dr. Seues");
-        childrens.setTargetAge(5);
-        childrens.setNurseryRhymes(" ");
+        com.softwareinstitute.Childrens.setBookTitle("Cat in the Hat");
+        com.softwareinstitute.Childrens.setABookTitle("Cat in the Hat Audio");
+        com.softwareinstitute.Childrens.setAuthor("Dr. Seues");
+        com.softwareinstitute.Childrens.setTargetAge(5);
+        com.softwareinstitute.Childrens.setNurseryRhymes(" ");
 
         System.out.println(com.softwareinstitute.Childrens.getBookTitle());
         System.out.println(com.softwareinstitute.Childrens.getABookTitle());
@@ -32,10 +32,10 @@ public class Main {
 
 
         Teen teens = new Teen("Twilight", "Twilight Audio");
-        teens.setBookTitle("Twilight");
-        teens.setABookTitle("Twilight Audio");
-        teens.setAuthor("Stephany Meyer");
-        teens.setRomance("Fantasy Romance");
+        com.softwareinstitute.Teen.setBookTitle("Twilight");
+        com.softwareinstitute.Teen.setABookTitle("Twilight Audio");
+        com.softwareinstitute.Teen.setAuthor("Stephany Meyer");
+        com.softwareinstitute.Teen.setRomance("Fantasy Romance");
 
         System.out.println(com.softwareinstitute.Teen.getBookTitle());
         System.out.println(com.softwareinstitute.Teen.getABookTitle());
@@ -55,11 +55,11 @@ public class Main {
 
 
         Adult adults = new Adult("A Million Little Pieces", "A Million little Pieces Audio");
-        adults.setBookTitle("A Million Little Pieces");
-        adults.setABookTitle("A Million Little Pieces Audio");
-        adults.setAuthor("James Frey");
-        adults.setQuickReads(" ");
-        adults.setMisc(" ");
+        com.softwareinstitute.Adult.setBookTitle("A Million Little Pieces");
+        com.softwareinstitute.Adult.setABookTitle("A Million Little Pieces Audio");
+        com.softwareinstitute.Adult.setAuthor("James Frey");
+        com.softwareinstitute.Adult.setQuickReads(" ");
+        com.softwareinstitute.Adult.setMisc(" ");
 
         System.out.println(com.softwareinstitute.Adult.getBookTitle());
         System.out.println(com.softwareinstitute.Adult.getABookTitle());
