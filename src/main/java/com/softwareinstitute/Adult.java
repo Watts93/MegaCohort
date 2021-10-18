@@ -1,6 +1,10 @@
 package com.softwareinstitute;
 
+<<<<<<< HEAD
 public class Adult extends Genre{
+=======
+public class Adult extends com.softwareinstitute.Genre {
+>>>>>>> 5dd24be (maven re-write)
 
     public Adult(String BookTitle, String ABookTitle) {
         super(BookTitle, ABookTitle);
@@ -29,7 +33,11 @@ public class Adult extends Genre{
 
 
 
+<<<<<<< HEAD
 //Author
+=======
+    //Author
+>>>>>>> 5dd24be (maven re-write)
     public static String getAuthor(){
         System.out.println("Author: "+ author);
         return author;
@@ -40,7 +48,11 @@ public class Adult extends Genre{
     }
 
 
+<<<<<<< HEAD
 //18+
+=======
+    //18+
+>>>>>>> 5dd24be (maven re-write)
     public static String getPlus18(){
         System.out.println("This book is for over 18's only");
         return plus18;
@@ -51,7 +63,11 @@ public class Adult extends Genre{
     }
 
 
+<<<<<<< HEAD
 //fEdu
+=======
+    //fEdu
+>>>>>>> 5dd24be (maven re-write)
     public static String getFEducation(){
         System.out.println("This is an adult level educational book");
         return FEducation;
@@ -62,7 +78,11 @@ public class Adult extends Genre{
     }
 
 
+<<<<<<< HEAD
 //QR
+=======
+    //QR
+>>>>>>> 5dd24be (maven re-write)
     public static String getQuickReads(){
         System.out.println("This is an adult quick read");
         return quickReads;
@@ -73,7 +93,11 @@ public class Adult extends Genre{
     }
 
 
+<<<<<<< HEAD
 //bio
+=======
+    //bio
+>>>>>>> 5dd24be (maven re-write)
     public static String getBiographies(){
         System.out.println("This is categorised as a biographical book");
         return biographies;

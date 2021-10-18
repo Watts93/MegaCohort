@@ -6,11 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="oopLibrary" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="oopLibrary" target="1.5" />
     </bytecodeTargetLevel>
+=======
+        <module name="Library" />
+      </profile>
+    </annotationProcessing>
+>>>>>>> 5dd24be (maven re-write)
   </component>
 </project>

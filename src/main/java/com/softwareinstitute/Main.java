@@ -18,11 +18,19 @@ public class Main {
         System.out.println(childrens.getNurseryRhymes());
 
 
+<<<<<<< HEAD
     //    System.out.println(Childrens.getAuthor());
     //    System.out.println(Childrens.getTargetAge());
     //    System.out.println(Childrens.getNurseryRhymes());
     //    System.out.println(Childrens.getInteractive());
     //    System.out.println(Childrens.getPicture());
+=======
+        //    System.out.println(Childrens.getAuthor());
+        //    System.out.println(Childrens.getTargetAge());
+        //    System.out.println(Childrens.getNurseryRhymes());
+        //    System.out.println(Childrens.getInteractive());
+        //    System.out.println(Childrens.getPicture());
+>>>>>>> 5dd24be (maven re-write)
 
 
         Teen teens = new Teen("Twilight", "Twilight Audio");
@@ -37,10 +45,17 @@ public class Main {
         System.out.println(Teen.getRomance());
 
 
+<<<<<<< HEAD
     //    System.out.println(Teen.getAuthor());
     //    System.out.println(Teen.getGCSE());
     //    System.out.println(Teen.getALevel());
     //    System.out.println(Teen.getTeenQuickReads());
+=======
+        //    System.out.println(Teen.getAuthor());
+        //    System.out.println(Teen.getGCSE());
+        //    System.out.println(Teen.getALevel());
+        //    System.out.println(Teen.getTeenQuickReads());
+>>>>>>> 5dd24be (maven re-write)
 
 
         Adult adults = new Adult("A Million Little Pieces", "A Million little Pieces Audio");
@@ -56,11 +71,19 @@ public class Main {
         System.out.println(adults.getQuickReads());
         System.out.println(adults.getMisc());
 
+<<<<<<< HEAD
     //    System.out.println(Adult.getAuthor());
     //    System.out.println(Adult.getPlus18());
     //    System.out.println(Adult.getFEducation());
     //    System.out.println(Adult.getQuickReads());
     //    System.out.println(Adult.getBiographies());
+=======
+        //    System.out.println(Adult.getAuthor());
+        //    System.out.println(Adult.getPlus18());
+        //    System.out.println(Adult.getFEducation());
+        //    System.out.println(Adult.getQuickReads());
+        //    System.out.println(Adult.getBiographies());
+>>>>>>> 5dd24be (maven re-write)
 
 
 

@@ -1,6 +1,10 @@
 package com.softwareinstitute;
 
+<<<<<<< HEAD
 public class Teen extends Genre{
+=======
+public class Teen extends com.softwareinstitute.Genre {
+>>>>>>> 5dd24be (maven re-write)
 
     public Teen(String BookTitle, String ABookTitle) {
         super(BookTitle, ABookTitle);
@@ -27,7 +31,11 @@ public class Teen extends Genre{
     //////////////////////////////// Methods ///////////////////////////////////////
 
 
+<<<<<<< HEAD
 //Author
+=======
+    //Author
+>>>>>>> 5dd24be (maven re-write)
     public static String getAuthor(){
         System.out.println("Author: "+ author);
         return author;
@@ -38,7 +46,11 @@ public class Teen extends Genre{
     }
 
 
+<<<<<<< HEAD
 //GCSE
+=======
+    //GCSE
+>>>>>>> 5dd24be (maven re-write)
     public static String getGCSE() {
         System.out.println("This is a GCSE level educational book");
         return GCSE;
@@ -48,7 +60,11 @@ public class Teen extends Genre{
         this.GCSE = GCSE;
     }
 
+<<<<<<< HEAD
 //aLevel
+=======
+    //aLevel
+>>>>>>> 5dd24be (maven re-write)
     public static String getALevel() {
         System.out.println("This is an A Level educational book");
         return ALevel;
@@ -58,7 +74,11 @@ public class Teen extends Genre{
         this.ALevel = ALevel;
     }
 
+<<<<<<< HEAD
 //TQR
+=======
+    //TQR
+>>>>>>> 5dd24be (maven re-write)
     public static String getTeenQuickReads() {
         System.out.println("This book is categorised as a Teen Quick Read");
         return teenQuickReads;

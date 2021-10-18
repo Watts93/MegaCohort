@@ -1,6 +1,10 @@
 package com.softwareinstitute;
 
+<<<<<<< HEAD
 public abstract class Genre extends Library implements BookDetails{
+=======
+public abstract class Genre extends com.softwareinstitute.Library implements BookDetails{
+>>>>>>> 5dd24be (maven re-write)
 
     public Genre(String BookTitle, String ABookTitle) {
         super(BookTitle, ABookTitle);
