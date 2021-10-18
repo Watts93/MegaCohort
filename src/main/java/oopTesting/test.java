@@ -5,7 +5,8 @@ import com.softwareinstitute.Childrens;
 import com.softwareinstitute.Teen;
 
 import org.junit.Test;
-import static org.testng.AssertJUnit.assertEquals;
+import static org.junit.Assert.*;
+import org.junit.
 
 public class test {
 
