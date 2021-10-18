@@ -19,7 +19,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
 
-    public void Teen (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
+    public static void Teen (String BookTitle, String author, String GCSE, String ALevel, String teenQuickReads){
         Teen.author = author;
         Teen.GCSE = GCSE;
         Teen.ALevel = ALevel;

@@ -18,7 +18,7 @@ public abstract class Genre extends com.softwareinstitute.Library implements Boo
 
     ////////////////////////////// Contructors ///////////////////////////////
 
-    public void Genre(String Educational, String Scifi, String Romance, String Horror, String Misc){
+    public static void Genre(String Educational, String Scifi, String Romance, String Horror, String Misc){
         Genre.Educational = Educational;
         Genre.Scifi = Scifi;
         Genre.Romance = Romance;
