@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 
-class testBooks {
+class test {
     Adult testBooks = new Adult("A Million Little Pieces", "A Million Little Pieces Audio");
 
     @Test
