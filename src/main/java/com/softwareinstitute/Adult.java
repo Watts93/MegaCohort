@@ -16,7 +16,7 @@ public class Adult extends com.softwareinstitute.Genre {
 
     /////////////////////////////// Constructors //////////////////////////////////
 
-    public static void Adult (String BookTitle, String author, String plus18, String fEducation, String quickReads, String biographies){
+    public static void Adult (String bookTitle, String author, String plus18, String fEducation, String quickReads, String biographies){
         Adult.author = author;
         Adult.plus18 = plus18;
         Adult.fEducation = fEducation;

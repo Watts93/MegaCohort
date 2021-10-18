@@ -40,7 +40,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getGCSE() {
-        System.out.println("This is a GCSE level educational book");
+        System.out.print("This is a GCSE level educational book");
         return Teen.gcse;
     }
 
@@ -50,7 +50,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getALevel() {
-        System.out.println("This is an A Level educational book");
+        System.out.print("This is an A Level book");
         return Teen.aLevel;
     }
 
@@ -60,7 +60,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getTeenQuickReads() {
-        System.out.println("This book is categorised as a Teen Quick Read");
+        System.out.print("This book is categorised as a Teen Quick Read");
         return Teen.teenQuickReads;
     }
 
