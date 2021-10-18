@@ -6,14 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-
         <module name="oopLibrary" />
+        <module name="Library" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="oopLibrary" target="1.5" />
     </bytecodeTargetLevel>
-
-        <module name="Library" />
   </component>
 </project>
