@@ -8,7 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.junit.Runner.*;
 
-public class test {
+public class Test {
 
     @Test
     public void testChildrens(){
