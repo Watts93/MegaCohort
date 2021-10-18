@@ -30,7 +30,7 @@ public class Teen extends com.softwareinstitute.Genre {
 
 
     public static String getAuthor(){
-        return ("Author: "+ Teen.author);
+        return (Teen.author);
     }
 
     public static void setAuthor(String author) {

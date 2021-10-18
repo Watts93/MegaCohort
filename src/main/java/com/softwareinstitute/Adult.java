@@ -28,21 +28,22 @@ public class Adult extends com.softwareinstitute.Genre {
 
 
     public static String getAuthor(String s){
-        return ("Author: "+ author);
+        return (Adult.author);
     }
 
-    public static void setAuthor(String author) {
+    public static String setAuthor(String author) {
         Adult.author = author;
+        return author;
     }
-
 
 
     public static String getPlus18(){
         return ("This book is for over 18's only");
     }
 
-    public static void setPlus18(String plus18) {
+    public static String setPlus18(String plus18) {
         Adult.plus18 = plus18;
+        return plus18;
     }
 
 
@@ -51,8 +52,9 @@ public class Adult extends com.softwareinstitute.Genre {
         return ("This is an adult level educational book");
     }
 
-    public static void setFEducation(String fEducation) {
+    public static String setFEducation(String fEducation) {
         Adult.fEducation = fEducation;
+        return fEducation;
     }
 
 
@@ -60,8 +62,9 @@ public class Adult extends com.softwareinstitute.Genre {
         return ("This is an adult quick read");
     }
 
-    public static void setQuickReads(String quickReads) {
+    public static String setQuickReads(String quickReads) {
         Adult.quickReads = quickReads;
+        return quickReads;
     }
 
 
@@ -69,8 +72,9 @@ public class Adult extends com.softwareinstitute.Genre {
         return ("This is categorised as a biographical book");
     }
 
-    public static void setBiographies(String biographies) {
+    public static String setBiographies(String biographies) {
         Adult.biographies = biographies;
+        return biographies;
     }
 
     @Override
