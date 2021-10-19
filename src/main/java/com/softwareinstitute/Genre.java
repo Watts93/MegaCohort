@@ -1,7 +1,7 @@
 package com.softwareinstitute;
 
 
-public abstract class Genre extends com.softwareinstitute.Library implements BookDetails{
+public class Genre extends com.softwareinstitute.Library implements BookDetails{
 
 
     public Genre(String bookTitle, String aBookTitle) {
